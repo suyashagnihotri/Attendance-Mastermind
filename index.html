@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <h1 class="title">Attendance Mastermind Know Your Score</h1>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <div class="input">
+                    <label for="Total_Lecture">Total Lectures:</label>
+                    <input type="number" id="Total_Lecture">
+                </div>
+                <div class="input">
+                    <label for="Total_Delegation">Total Delegation:</label>
+                    <input type="number" id="Total_Delegation">
+                </div>
+                <div class="input">
+                    <label for="Total_Absent">Total Absent:</label>
+                    <input type="number" id="Total_Absent">
+                </div>
+                <div class="input">
+                    <label for="Year">Year (1-4):</label>
+                    <input type="number" id="Year">
+                </div>
+                <button id="calculate">Calculate</button>
+            </div>
+            <div class="result">
+                <p>Attendance:</p>
+                <div id="result">0%</div>
+                <div id="emoji"></div>
+                <div id="comment"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
